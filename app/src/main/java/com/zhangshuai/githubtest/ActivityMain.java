@@ -11,5 +11,6 @@ public class ActivityMain extends AppCompatActivity {
 		setContentView(R.layout.activity_main);
 		/////
 		//克隆后的修改
+		//克隆后修改的bug
 	}
 }
