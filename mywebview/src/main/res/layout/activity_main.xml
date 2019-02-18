@@ -11,27 +11,40 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="8"
-        >
+        android:weightSum="8">
+
         <EditText
-            android:layout_width="0dp"
-            android:layout_weight="6"
-            android:layout_height="wrap_content"
             android:id="@+id/et_url"
-            />
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" />
+
         <Button
+            android:id="@+id/btn_go"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="GO"
             android:onClick="OnClick"
-            android:id="@+id/btn_go"
-            />
+            android:text="GO" />
+
+        <Button
+            android:id="@+id/btn_gethistory"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:text="get" />
+        <Button
+            android:id="@+id/btn_load"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="OnClick"
+            android:text="load" />
     </LinearLayout>
 
     <WebView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/webview"
-        ></WebView>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></WebView>
 </LinearLayout>

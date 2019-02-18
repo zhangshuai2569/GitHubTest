@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>webview 练习</title>
+    <script type="text/javascript">
+        function testAlert(){
+        alert("i am js alert");
+        }
+
+
+        function testConfrim(){
+        var r=confirm("i am js confirm");
+        alert(r);
+        }
+        function testPrompt(){
+        var r=prompt("i am js prompt","prompt")
+
+        }
+
+        function callJavafromJs(){
+        window.zs.callFromJs("i am from js");
+        }
+
+    </script>
+</head>
+<body>
+<input type="button" onclick="testAlert();"value="testAlert">
+<input type="button" onclick="testConfrim();"value="testConfrim">
+<input type="button" onclick="testPrompt();"value="testPrompt">
+<input type="button" onclick="callJavafromJs();"value="calljavafromjs">
+</body>
+
+
+</html>
