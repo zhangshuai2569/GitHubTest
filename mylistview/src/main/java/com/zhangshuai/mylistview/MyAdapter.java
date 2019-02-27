@@ -52,5 +52,6 @@ public class MyAdapter extends BaseAdapter  {
 	public void onClick(View v) {
 		int tag = (int) v.getTag();
 		Log.e("list",tag+"");
+
 	}
 }
