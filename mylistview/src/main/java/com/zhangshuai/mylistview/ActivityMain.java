@@ -20,7 +20,7 @@ public class ActivityMain extends AppCompatActivity implements AdapterView.OnIte
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		listView = (ListView) findViewById(R.id.main_lv);
-		listView.setAdapter(new MyAdapter(this));
+		listView.setAdapter(new MyAdapter1(this));
 		listView.setOnItemClickListener(this);
 	}
 
