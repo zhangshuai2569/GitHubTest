@@ -1,11 +1,7 @@
 package com.zhangshuai.toucheventdemo;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.pm.PackageManager;
-import android.support.annotation.NonNull;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
